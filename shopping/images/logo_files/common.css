@@ -1,0 +1,246 @@
+/*顶部导航开始*/
+.head {
+	height: 31px;
+	line-height: 31px;
+	background-color: #F1F1F1;
+	color: #666;
+	font-size: 12px;
+}
+.head a {
+	color: #666;
+}
+.head a:hover {
+	color: #C81623;
+}
+.head li {
+	float: left;
+}
+.head li span {
+	color: #C81623
+}
+.l {
+	margin: 9px 12px 0;
+	height: 12px;
+	width: 1px;
+	background-color: #666;
+}
+i {
+	line-height: 26px;
+	font-style: normal;
+	font-size: 16px;
+}
+.header {
+	position: relative;
+	height: 105px;
+	/*background-color: pink;*/
+}
+.logo h1 a {
+	display: block;
+	width: 175px;
+	height: 56px;
+	position: absolute;
+	top: 25px;
+	left: 0;
+	background-image: url(../img/logo.png);
+	text-indent: -999px;
+	overflow: hidden;
+}
+.search {
+	position: absolute;
+	top: 25px;
+	left: 348px;
+}
+input {
+	height: 32px;
+	width: 445px;
+	border: 2px solid #b1191a;
+	padding-left: 10px;
+	color: #ccc;
+}
+button {
+	height: 36px;
+	width: 82px;
+	border: 0;
+	background-color: #b1191a;
+	font-size: 16px;
+	color: #fff;
+}
+.hotwords {
+	position: absolute;
+	top: 62px;
+	left: 348px;
+}
+.hotwords a {
+	margin: 0 10px;
+	font-size: 12px;
+	color: #666;
+}
+.hotwords .hwo {
+	color: #C81623;
+}
+.shopcar {
+	position: absolute;
+	width: 138px;
+	height: 34px;
+	line-height: 34px;
+	border: 1px solid #dfdfdf;
+	top: 25px;
+	right: 64px;
+	background-color: #F7F7F7;
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+}
+.shopcar i {
+	font-size: 12px;
+}
+.shopcar .i-l {
+	color: #DA5555;
+}
+.eight {
+	position: absolute;
+	top: -5px;
+	left: 100px;
+	height: 14px;
+	line-height: 14px;
+	padding: 0 3px;
+	border-radius: 7px 7px 7px 0;
+	background-color: #E60012;
+	color: #fff;
+}
+.nav {
+	height: 45px;
+	border-bottom: 2px solid #B1191A;
+}
+.nav_left {
+	width: 209px;
+	/*height: 465px;*/
+}
+.nav_left .dt {
+	background-color: #B1191A;
+	line-height: 45px;
+	text-align: center;
+	color: #fff;
+}
+.nav_left .dd {
+	margin-top: 2px;
+	background-color: #C81623;
+}
+.nav_left .dd li:hover {
+	padding-left: 20px;
+}
+.nav_left ul {
+	margin-left: 1px;
+}
+.nav_left .dd li {
+	height: 31px;
+	line-height: 31px;
+	padding: 0 10px 0;
+	color: #fff;
+	transition: all .5s;
+}
+.nav_left a {
+	font-size: 14px;
+	color: #fff;
+}
+.nav_left i {
+	line-height: 31px;
+	font-size: 18px;
+	color: #fff;
+}
+.nav_left li:hover {
+	background-color: #fff;
+}
+.nav_left li:hover a {
+	color: #C81623;
+}
+.nav_right {
+	margin-left: 10px;
+}
+.nav_right li {
+	float: left;
+	line-height: 45px;
+}
+.nav_right a {
+	padding: 0 25px;
+	font-size: 16px;
+}
+/*底部*/
+.footer {
+	height: 386px;
+	padding-top: 30px;
+	background-color: #F5F5F5;
+}
+.mod-service {
+	height: 79px;
+	border-bottom: 1px solid #ccc;
+}
+.mod-service li {
+	float: left;
+	width: 240px;
+	font-size: 12px;
+	color: #666;
+}
+.mod-service i {
+	margin-left: 35px;
+}
+.footer_pic {
+	display: block;
+	margin-right: 5px;
+	width: 49px;
+	height: 49px;
+	background: url(../img/icons.png) no-repeat;
+}
+.mod-service .zheng {
+	background-position: -253px -3px;
+}
+.mod-service .quick {
+	background-position: -254px -54px;
+}
+.mod-service .bao {
+	background-position: -257px -106px;
+}
+.mod-service h3 {
+	margin: 5px 0;
+	font-size: 12px;
+}
+.mod-help {
+	height: 187px;
+	border-bottom: 1px solid #ccc;
+}
+.mod-help dl {
+	float: left;
+	padding: 20px 0 0 50px;
+	width: 150px;
+}
+.mod-help dt {
+	height: 25px;
+	color: #666;
+}
+.mod-help dd {
+	height: 20px;
+	font-size: 12px;
+	padding-bottom: 2px;
+}
+.mod-help .last {
+	width: 94px;
+	color: #666;
+}
+.mod-help .last dt, 
+.mod-help .last dd {
+	text-align: center;
+}
+.mod-help .last-pic {
+	height: 95px;
+	margin: 5px 0;
+}
+.copyright {
+	text-align: center;
+	color: #666;
+	font-size: 12px;
+}
+.copyright p {
+	margin: 20px 0 -5px 0;
+	line-height: 18px;
+}
+

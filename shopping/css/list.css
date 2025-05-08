@@ -1,0 +1,121 @@
+/* 列表页专有的css */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+}
+
+.miaosha {
+    position: absolute;
+    padding: 5px 15px;
+    border-left: 1px solid #c81523;
+    left: 180px;
+    top: 13px;
+}
+
+.nav {
+    overflow: hidden;
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.sk_list {
+    float: left;
+
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 47px;
+    padding: 0px 30px;
+    color: #000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    font-size: 14px;
+    line-height: 49px;
+    padding: 0px 20px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+
+.sk_bd ul li {
+    float: left;
+    margin-right: 13px;
+    width: 290px;
+    height: 460px;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0px;
+}
+
+.sk_bd ul li:hover {
+    border: solid #c81523;
+}
+
+.sk_bd ul li img {
+    margin-bottom: 30px;
+}
+
+.sk_bd ul li p {
+    font-size: 14px;
+}
+
+.price {
+    margin: 15px 0px;
+}
+
+.original_price {
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+.discount_price {
+    color: #c81523;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.progress_bar {
+    width: 133px;
+    height: 15px;
+    border: 1px solid #c81523;
+    border-radius: 8px;
+    margin-top: 1px;
+    float: left;
+    margin: 0px 10px 0px 8px;
+}
+
+.cargo_quantity div {
+    float: left;
+}
+
+.jindu {
+    width: 100px;
+    height: 14px;
+    background-color: #c81523;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 6px;
+}

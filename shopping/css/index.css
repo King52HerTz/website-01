@@ -1,0 +1,629 @@
+.main{
+    margin-left: 220px;
+    height: 455px;
+    widows: 980px;
+    margin-top: 10px;
+}
+.focus{
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+.Newsflash{
+    float: right;
+    height: 455px;
+    width: 250px;
+}
+.news{
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.news-hd{
+    height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    text-align: center;
+    line-height: 33px;
+    padding: 0px 15px;
+}
+.news-hd h5{
+    float: left;
+    font-size: 14px;
+}
+.news-hd .more{
+    float: right;
+}
+.news-hd .more::after{
+    content: '\e920';
+    font-family: 'icomoon';
+}
+.news-bd ul li{
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.news-bd{
+    padding: 5px 15px 0px;
+}
+.lifeservice{
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0px;
+    overflow: hidden;
+}
+.lifeservice ul li{
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.lifeservice ul{
+    width: 252px;
+}
+.bargain{
+    margin-top: 5px;
+}
+.lifeservice ul li i{
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url(../images/icons.png) no-repeat -19px -15px;
+}
+.lifeservice ul li:nth-of-type(2) i{
+    background: url(../images/icons.png) no-repeat -80px -17px;
+}
+.lifeservice ul li:nth-of-type(3) i{
+    background: url(../images/icons.png) no-repeat -141px -18px;
+}
+.lifeservice ul li:nth-of-type(4) i{
+    background: url(../images/icons.png) no-repeat -206px -15px;
+}
+.lifeservice ul li:nth-of-type(5) i{
+    background: url(../images/icons.png) no-repeat -16px -85px;
+}
+.lifeservice ul li:nth-of-type(6) i{
+    background: url(../images/icons.png) no-repeat -80px -85px;
+}
+.lifeservice ul li:nth-of-type(7) i{
+    background: url(../images/icons.png) no-repeat -142px -86px;
+}
+.lifeservice ul li:nth-of-type(8) i{
+    background: url(../images/icons.png) no-repeat -206px -87px;
+}
+.lifeservice ul li:nth-of-type(9) i{
+    background: url(../images/icons.png) no-repeat -16px -155px;
+}
+.lifeservice ul li:nth-of-type(10) i{
+    background: url(../images/icons.png) no-repeat -79px -156px;
+}
+.lifeservice ul li:nth-of-type(11) i{
+    background: url(../images/icons.png) no-repeat -143px -150px;
+}
+.lifeservice ul li:nth-of-type(12) i{
+    background: url(../images/icons.png) no-repeat -206px -156px;
+}
+.lifeservice ul li:nth-of-type(2){
+    position: relative;
+}
+.flag{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 18px;
+    height: 21px;
+    background-color: #629a65;
+    font-size: 14px;
+    color: white;
+}
+.sanjiao{
+    position: absolute;
+    top: 8px;
+    right: 1px;
+    width: 0px;
+    height: 0px;
+    line-height: 0px;
+    font-size: 0px;
+    border: 8px solid transparent;
+    border-bottom-color: white;
+}
+/* 推荐模块 start */
+.recommend{
+    margin-top: 12px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+.recommend-hd{
+    float: left;
+    height: 163px;
+    width: 205px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+.recommend-bd{
+    float: right;
+}
+.recommend-bd ul li{
+    float: left;
+    position: relative;
+}
+.recommend-bd ul li img{
+    width: 248px;
+    height: 163px;
+}
+.recommend-bd ul li:nth-child(-n+3)::after{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    content: '';
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+/* .recommend-bd ul li:nth-child(4)::after{
+    第一种方法 
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    content: '';
+    width: 0px;
+    height: 0px;
+    background-color: #ddd;
+    第二种方法
+    display: none;
+} */
+/* 推荐模块 end */
+/* 猜你喜欢模块 start */
+.recommend2{
+    margin-top: 30px;
+}
+.recommend2-list{
+    height: 233px;
+    border: solid 1px #ededed;
+}
+.recommend2-list ul li{
+    float: left;
+    text-align: center;
+    width: 199px;
+    position: relative;
+    height: 233px;
+}
+.recommend2-list ul li:nth-child(1) img{
+    padding-top: 10px;
+}
+.recommend2-list ul li:nth-child(2) img{
+    padding-top: 25px;
+}
+.recommend2-list ul li:nth-child(3) img{
+    padding-top: 15px;
+}
+.recommend2-list ul li:nth-child(4) img{
+    padding-top: 50px;
+}
+.recommend2-list ul li:nth-child(5) img{
+    padding-top: 20px;
+}
+.recommend2-list ul li:nth-child(6) img{
+    padding-top: 20px;
+}
+.recommend2-list ul li h4{
+    text-indent: 0.5em;
+    font-size: 12px;
+}
+.recommend2-list ul li h2{
+    text-indent: -2.5em;
+    color: #df3033;
+}
+#indent1{
+    text-indent: -6em;
+    padding-top: 5px;
+}
+#indent2{
+    text-indent: -7em;
+    padding-top: 38px;
+}
+#indent2-1{
+    text-indent: 1em;
+}
+#indent3{
+    text-indent: -7em;
+}
+#indent3-1{
+    text-indent: -1em;
+}
+#indent4{
+    text-indent: -5em;
+}
+#indent4-1{
+    text-indent: 0.7em;
+}
+.recommend2-list ul li:nth-child(-n+5)::after{
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+    content: '';
+    width: 1px;
+    height: 63px;
+    background-color: #ededed;
+}
+/* 猜你喜欢模块 end */
+/* 传智播客·有趣区 start */
+.interestall{
+    margin-top: 30px;
+}
+.interest{
+    height: 406px;
+    border: #ededed 1px solid;
+}
+.interest ul li{
+    float: left;
+    height: 406px;
+}
+.interest ul li:nth-child(2){
+    width: 228px;
+}
+.interest ul li:nth-child(2) h3{
+    text-align: center;
+    font-size: 15px;
+    width: 190px;
+    border-bottom: 1px dashed #ededed;
+    margin-left: 19px;
+    padding: 5px 0px;
+}
+.interest ul li:nth-child(2) h2{
+    padding-bottom: 5px;
+}
+.interest ul li:nth-child(2) .ibox1{
+    position: relative;
+    height: 208px;
+    border-bottom: #ededed 1px solid;
+}
+.interest ul li:nth-child(2) .ibox1 img{
+    position: absolute;
+    right: -2px;
+    top: 30px;
+}
+.interest ul li:nth-child(2) .shuoming{
+    position: absolute;
+    left: 10px;
+    top: 70px;
+}
+.interest ul li:nth-child(2) .ibox2{
+    height: 164px;
+    position: relative;
+}
+.interest ul li:nth-child(2) .ibox2 img{
+    position: absolute;
+    right: -2px;
+    bottom: 0px;
+}
+.interest ul li:nth-child(2) .shuoming2{
+    position: absolute;
+    left: 10px;
+    top:  50px;
+}
+.interest ul li:nth-child(3){
+    width: 407px;
+    background-color: #f7f7f7;
+    border-right: #ededed solid 1px;
+    border-left: #ededed solid 1px;
+}
+.interest ul li:nth-child(3) h3{
+    width: 365px;
+    padding: 5px 0px;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 1px dashed #ededed;
+    margin-left: 21px;
+}
+.interest ul li:nth-child(3) .ibox3{
+    position: relative;
+    width: 407px;
+    height: 208px;
+    border-bottom: #ededed solid 1px;
+}
+.interest ul li:nth-child(3) .ibox3 img{
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+}
+.interest ul li:nth-child(3) .ibox3 .shuoming3{
+    position: absolute;
+    top: 72px;
+    left: 52px;
+}
+.interest ul li:nth-child(3) h2{
+    padding-bottom: 5px;
+}
+.interest ul li:nth-child(3) .ibox4{
+    position: relative;
+    float: left;
+    width: 203px;
+    height: 165px;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+.interest ul li:nth-child(3) .ibox4 img{
+    position: absolute;
+    right: 0px;
+    top: 32px;
+}
+.interest ul li:nth-child(3) .ibox4 .shuoming4{
+    position: absolute;
+    left: 15px;
+    top: 50px;
+}
+.interest ul li:nth-child(3) .ibox5{
+    position: relative;
+    float: right;
+    height: 165px;
+    width: 202px;
+    border-bottom: 1px solid #ededed;
+}
+.interest ul li:nth-child(3) .ibox5 img{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.interest ul li:nth-child(3) .ibox5 .shuoming5{
+    position: absolute;
+    left: 15px;
+    top: 50px;
+}
+.interest ul li:nth-child(4){
+    width: 159px;
+    background: url(../images/upload/136.png) no-repeat -3px -3px;
+}
+.interest ul li:nth-child(4) ul li{
+    float: left;
+    width: 79.5px;
+    height: 58px;
+}
+/* 传智播客·有趣区  end*/
+/* 家用电器部分 */
+.box_hd{
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.box_hd h3{
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #c81623;
+}
+.tab_list{
+    float: right;
+}
+.tab_list ul li{
+    float: left;
+    line-height: 30px;
+}
+.tab_list ul li a{
+    margin: 0px 15px;
+}
+.floor .w{
+    margin-top: 30px;
+}
+.box_bd{
+    height: 361px;
+}
+.tab_list_item>div{
+    float: left;
+    height: 361px;
+}
+.col_210{
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.col_210 ul{
+    padding-left: 12px;
+}
+.col_210 ul li{
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #cccccc;
+    line-height: 33px;
+    text-align: center;
+    margin-right: 10px;
+}
+.col_329{
+    width: 329px;
+}
+.col_221{
+    width: 221px;
+}
+.col_219{
+    width: 219px;
+}
+.col_210 h2{
+    margin-top: 127px;
+}
+.col_329{
+    background-color: #aed6d8;
+    color: #066c7d;
+    text-align: center;
+}
+.col_329 ul{
+    width: 50px;
+    margin-left: 140px;
+}
+.col_329 ul li{
+    float: left;
+    background-color: #3e3e3e;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px; 
+}
+.col_329 ul li:hover{
+    background-color: #fff;
+}
+.col_329 ul li:nth-child(2){
+    margin: 0px 5px;
+}
+.col_329 h2{
+    padding-top: 37px;
+    padding-left: 30px;
+    text-align: left;
+}
+.col_329 h4{
+    margin-bottom: 36px;
+    padding-left: 30px;
+    text-align: left;
+}
+.col_221{
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    text-align: center;
+}
+.col_221 div:nth-child(1){
+    height: 180px;
+    border-bottom: 1px solid #ededed;
+    position: relative;
+}
+.col_221 div:nth-child(1) h2{
+    text-align: left;
+    padding-top: 24px;
+    padding-left: 18px;
+}
+.col_221 div:nth-child(1) h4{
+    text-align: left;
+    padding-left: 18px;
+}
+.col_221 div:nth-child(1) img{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.col_221 div:nth-child(2){
+    height: 180px;
+    position: relative;
+}
+.col_221 div:nth-child(2) h2{
+    text-align: left;
+    padding-top: 24px;
+    padding-left: 18px;
+}
+.col_221 div:nth-child(2) h4{
+    text-align: left;
+    padding-left: 18px;
+}
+.col_221 div:nth-child(2) img{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.col_221 h2{
+    padding-top: 85px;
+}
+.col_221 h2:nth-child(2){
+    padding-bottom: 80px;
+    color: #999;
+    padding-top: 0px;
+}
+.col_219{
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    text-align: center;
+}
+.col_219 div:nth-child(1){
+    height: 180px;
+    border-bottom: 1px solid #ededed;
+    position: relative;
+}
+.col_219 div:nth-child(1) h2{
+    text-align: left;
+    padding-top: 24px;
+    padding-left: 18px;
+}
+.col_219 div:nth-child(1) h4{
+    text-align: left;
+    padding-left: 18px;
+}
+.col_219 div:nth-child(1) img{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.col_219 div:nth-child(2){
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+.col_219 div:nth-child(2) h2{
+    text-align: left;
+    padding-top: 24px;
+    padding-left: 18px;
+}
+.col_219 div:nth-child(2) h4{
+    text-align: left;
+    padding-left: 18px;
+}
+.col_219 div:nth-child(2) img{
+    position: absolute;
+    bottom: 0px;
+    right: -20px;
+    z-index: -1;
+}
+.col_219 h2{
+    padding-top: 85px;
+}
+.floor .pinpai{
+    margin-top: 20px;
+    background: url(../images/upload/119.png)no-repeat;
+    height: 66px;
+}
+.floor .pinpai ul li{
+    float: left;
+    width: 120px;
+    height: 66px;
+}
+.rush{
+    height: 282px;
+    background: url(../images/upload/125.png) no-repeat -5px -43px;
+    border: 1px solid #ededed;
+    margin-bottom: 38px;
+}
+.col_240{
+    float: left;
+    width: 240px;
+    height: 282px;
+}
+.col_660{
+    float: left;
+    width: 660px;
+    height: 282px;
+}
+.col_660 ul{
+    float: left;
+}
+.col_660 ul li {
+    float: left;
+    width: 220px;
+    height: 141px;
+}
+.col_660 ul li a{
+    display: block;
+    width: 220px;
+    height: 141px;
+}
+.col_300{
+    float: left;
+    width: 298px;
+    height: 282px;
+}
+.col_300 ul li{
+    float: left;
+    width: 298px;
+    height: 141px;
+}
+.col_300 ul li a{
+    display: block;
+    height: 141px;
+    width: 298px;
+}
